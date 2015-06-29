@@ -10,7 +10,8 @@
 
 ##数据结构设计
 ###包头结构
-控制器之间以包的形式进行通信，每个数据包都包含一个包头和一个数据段。包头如下：  `typedef struct {
+控制器之间以包的形式进行通信，每个数据包都包含一个包头和一个数据段。包头如下：  
+`typedef struct {
 	1 源地址
 	2 目标地址
 	3 包类型
@@ -18,7 +19,8 @@
 }IICPackge_Header_t;`
 
 ###命令包结构
-主机只给从机发送为命令包，命令包结构如下：  `typedef struct{
+主机只给从机发送为命令包，命令包结构如下：  
+`typedef struct{
 	 IIC_Header_t;
 	struct{
 	  1 命令名字
@@ -29,7 +31,8 @@
 }IICPackge_Command_t;`
 
 ###结果反馈包结构
-从机反馈回来的执行结果包如下:  `typedef struct{
+从机反馈回来的执行结果包如下:  
+`typedef struct{
 	IIC_Header_t
 	struct{
 	  1 命令名字
@@ -40,7 +43,8 @@
 }IICPackge_Result_t;`
 
 ###状态包结构
-从机只会给主机发送状态包  `typedef struct{
+从机只会给主机发送状态包  
+`typedef struct{
 	 IICH_eader_t Header
 	struct{
 		1 最大输入电流
@@ -56,7 +60,8 @@
 
 
 工作流程：
-* 一. 开机初始化时每一个状态置为空，主机平分电压，然后对从机广播调节命令,发送的命令包内容如下：  `IICPackge_Command_t Cmd = 
+* 一. 开机初始化时每一个状态置为空，主机平分电压，然后对从机广播调节命令,发送的命令包内容如下:  
+`IICPackge_Command_t Cmd = 
 {
 	.Header.源地址 = 主机地址，
 	.Header.目标地址 = 广播地址,
