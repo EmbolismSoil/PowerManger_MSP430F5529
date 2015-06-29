@@ -28,9 +28,9 @@ typedef struct{
     /*当前缓冲区内的数据长度，单位 字节*/
     uint16_t CurLength;
     /*当前数据存储节点*/
- //   uint16_t WIndex;
+    uint16_t WIndex;
     /*当前数据读取节点*/
- //   uint16_t RIndex;
+    uint16_t RIndex;
     /*最大数据长度*/
     uint16_t MaxLength;
 }I2C_DataBuf_t;
@@ -43,9 +43,11 @@ static I2C_DataBuf_t RxBuf = {.CurLength = 0};
 /*从机发送缓缓冲区*/
 static uint8_t  SlaveTxBuffer[I2C_MAX_BUF_SIZES];
 static uint8_t  SlaveRxBuffer[I2C_MAX_BUF_SIZES];
-static I2C_DataBuf_t SlaveTxBuf = {.CurLength = 0};
+static I2C_DataBuf_t SlaveTxBuf = {.CurLength = 0, .MaxLength = I2C_MAX_BUF_SIZES, .RIndex = 0,
+                                    .WIndex = 0, .Buf = SlaveTxBuffer};
 /*从机接收缓冲区*/
-static I2C_DataBuf_t SlaveRxBuf = {.CurLength = 0};
+static I2C_DataBuf_t SlaveRxBuf = {.CurLength = 0, .MaxLength = I2C_MAX_BUF_SIZES, .RIndex = 0,
+                                    .WIndex = 0, .Buf = SlaveRxBuffer};
 
 static uint8_t User_I2C_SlaveRxLock = 0;
 static uint8_t User_I2C_SlaveTxLock = 0;
