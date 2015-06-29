@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\User_Spi.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\User_SysInit.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\inc\User_ADC.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\inc\User_Config.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\inc\User_I2C.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\inc\User_SysInit.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\inc\User_Timer.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\src\LCD12864P.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\src\User_ADC.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\src\User_I2C.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\PowerManager_MSP430F5529\proj\MSP430F5xx_6xx\00_emptyProject\src\main.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\msp430f5529 - &#x526F;&#x672C;\proj\MSP430F5xx_6xx\00_emptyProject\LCD12864P.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\msp430f5529 - &#x526F;&#x672C;\proj\MSP430F5xx_6xx\00_emptyProject\User_Spi.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\msp430f5529\proj\MSP430F5xx_6xx\00_emptyProject\LCD12864P.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\msp430f5529\proj\MSP430F5xx_6xx\00_emptyProject\User_Spi.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>E:\&#x7535;&#x8D5B;\&#x8BAD;&#x7eC3;\&#x8F6F;&#x4eF6;\msp430f5529\proj\MSP430F5xx_6xx\00_emptyProject\User_SysInit.h</path>
+    <encoding>System</encoding>
+  </override>
+</userOverrides>
+
+
