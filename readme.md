@@ -86,3 +86,4 @@ typedef struct{
 * 10 总线地址 
 
 当状态发生变化时，给主机发送状态，主机收到后将加入一个链表中。
+<div class="line number1 index0 alt2"><code class="php plain">export&nbsp;PATH=</code><code class="php variable">$PATH</code><code class="php plain">:/your_stm_gcc_dir/gcc-arm-none-eabi-4_8-2013q4/bin</code></div>
