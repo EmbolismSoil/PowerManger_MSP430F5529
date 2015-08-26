@@ -85,4 +85,4 @@ typedef struct{
 * 9  等效内阻
 * 10 总线地址 
 
-当状态发生变化时，给主机发送状态，主机收到后将加入一个链表中<div><div id="highlighter_55656" class="syntaxhighlighter  php"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="gutter"><div class="line number1 index0 alt2">1</div></td><td class="code"><div class="container"><div class="line number1 index0 alt2"><code class="php plain">export PATH=</code><code class="php variable">$PATH</code><code class="php plain">:/your_pi_gcc_dir/tools-master/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/:/your_stm_gcc_dir/gcc-arm-none-eabi-4_8-2013q4/bin</code></div></div></td></tr></tbody></table></div></div>
+当状态发生变化时，给主机发送状态，主机收到后将加入一个链表中
